@@ -1,0 +1,18 @@
+# This file tells Git which files shouldn't be added to source control
+
+.idea
+dist
+node_modules
+storage
+
+block-list.txt
+*.db
+
+# SQLite dump files
+dumps/*
+
+crawler.db-shm
+crawler.db-wal
+
+config.json
+crawled-urls.csv

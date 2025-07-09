@@ -1,0 +1,28 @@
+{
+  "name": "crawler",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Visit a random website",
+  "dependencies": {
+    "@crawlee/memory-storage": "^3.11.1",
+    "crawlee": "^3.0.0",
+    "playwright": "^1.46.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@apify/tsconfig": "^0.1.0",
+    "@types/node": "^20.0.0",
+    "tsx": "^4.4.0",
+    "typescript": "~5.5.0"
+  },
+  "scripts": {
+    "start:clear": "npm run start:dev",
+    "start": "npm run start:dev",
+    "start:prod": "node dist/main.js",
+    "start:prod:clear": "node dist/main.js",
+    "start:dev": "tsx src/main.ts",
+    "build": "tsc"
+  },
+  "author": "VisitARandomWebsite",
+  "license": "ISC"
+}

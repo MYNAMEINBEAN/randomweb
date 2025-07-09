@@ -1,0 +1,13 @@
+name = "randomweb"
+main = "dist/_worker.js/index.js"
+compatibility_flags = [ "nodejs_compat" ]
+compatibility_date = "2024-03-29"
+
+[site]
+bucket = './dist'
+
+[[d1_databases]]
+binding = "DB"
+database_name = "visitarandomwebsite"
+database_id = "31618272-6f02-460a-a10d-e62afaadd599"
+preview_database_id = "DB" 
